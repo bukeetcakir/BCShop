@@ -1,0 +1,6 @@
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BCShop\BCShop.Entity\bin\Debug\BCShop.Entity.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BCShop\BCShop.Entity\bin\Debug\BCShop.Entity.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BCShop\BCShop.Entity\obj\Debug\BCShop.Entity.csproj.AssemblyReference.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BCShop\BCShop.Entity\obj\Debug\BCShop.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BCShop\BCShop.Entity\obj\Debug\BCShop.Entity.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BCShop\BCShop.Entity\obj\Debug\BCShop.Entity.pdb
