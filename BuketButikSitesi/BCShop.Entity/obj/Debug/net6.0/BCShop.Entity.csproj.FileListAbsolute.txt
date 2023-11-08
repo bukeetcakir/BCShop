@@ -1,0 +1,14 @@
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\bin\Debug\net6.0\BCShop.Entity.deps.json
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\bin\Debug\net6.0\BCShop.Entity.runtimeconfig.json
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\bin\Debug\net6.0\BCShop.Entity.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\bin\Debug\net6.0\BCShop.Entity.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.csproj.AssemblyReference.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.AssemblyInfoInputs.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.AssemblyInfo.cs
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\refint\BCShop.Entity.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\BCShop.Entity.genruntimeconfig.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Entity\obj\Debug\net6.0\ref\BCShop.Entity.dll

@@ -1,0 +1,17 @@
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\bin\Debug\net6.0\BCShop.Data.deps.json
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\bin\Debug\net6.0\BCShop.Data.runtimeconfig.json
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\bin\Debug\net6.0\BCShop.Data.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\bin\Debug\net6.0\BCShop.Data.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\bin\Debug\net6.0\BCShop.Entity.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\bin\Debug\net6.0\BCShop.Entity.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.csproj.AssemblyReference.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.AssemblyInfoInputs.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.AssemblyInfo.cs
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.csproj.CoreCompileInputs.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.csproj.CopyComplete
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\refint\BCShop.Data.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\BCShop.Data.genruntimeconfig.cache
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Data\obj\Debug\net6.0\ref\BCShop.Data.dll
