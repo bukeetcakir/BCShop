@@ -586,6 +586,35 @@
         "build": {
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
+      },
+      "BCShop.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "BCShop.Entity": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13"
+        },
+        "compile": {
+          "bin/placeholder/BCShop.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BCShop.Data.dll": {}
+        }
+      },
+      "BCShop.Entity/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13"
+        },
+        "compile": {
+          "bin/placeholder/BCShop.Entity.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BCShop.Entity.dll": {}
+        }
       }
     }
   },
@@ -1341,10 +1370,21 @@
         "system.text.json.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "BCShop.Data/1.0.0": {
+      "type": "project",
+      "path": "../BCShop.Data/BCShop.Data.csproj",
+      "msbuildProject": "../BCShop.Data/BCShop.Data.csproj"
+    },
+    "BCShop.Entity/1.0.0": {
+      "type": "project",
+      "path": "../BCShop.Entity/BCShop.Entity.csproj",
+      "msbuildProject": "../BCShop.Entity/BCShop.Entity.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "BCShop.Data >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Sqlite >= 7.0.13",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.13"
@@ -1376,7 +1416,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop.Data\\BCShop.Data.csproj": {
+              "projectPath": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop.Data\\BCShop.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

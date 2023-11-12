@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop.Data\\BCShop.Data.csproj": {
+                "projectPath": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop.Data\\BCShop.Data.csproj"
+              }
+            }
           }
         },
         "warningProperties": {

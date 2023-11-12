@@ -431,6 +431,7 @@
       },
       "BCShop.Business/1.0.0": {
         "dependencies": {
+          "BCShop.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13"
         },

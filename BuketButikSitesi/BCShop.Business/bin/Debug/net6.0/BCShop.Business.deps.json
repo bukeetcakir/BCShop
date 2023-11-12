@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "BCShop.Business/1.0.0": {
         "dependencies": {
+          "BCShop.Data": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.13",
           "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.13"
@@ -426,6 +427,25 @@
             "fileVersion": "7.0.22.51805"
           }
         }
+      },
+      "BCShop.Data/1.0.0": {
+        "dependencies": {
+          "BCShop.Entity": "1.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13"
+        },
+        "runtime": {
+          "BCShop.Data.dll": {}
+        }
+      },
+      "BCShop.Entity/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "7.0.13",
+          "Microsoft.EntityFrameworkCore.Sqlite": "7.0.13"
+        },
+        "runtime": {
+          "BCShop.Entity.dll": {}
+        }
       }
     }
   },
@@ -644,6 +664,16 @@
       "sha512": "sha512-DaGSsVqKsn/ia6RG8frjwmJonfos0srquhw09TlT8KRw5I43E+4gs+/bZj4K0vShJ5H9imCuXupb4RmS+dBy3w==",
       "path": "system.text.json/7.0.0",
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
+    },
+    "BCShop.Data/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "BCShop.Entity/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

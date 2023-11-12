@@ -12,3 +12,8 @@ C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Busines
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\obj\Debug\net6.0\BCShop.Business.pdb
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\obj\Debug\net6.0\BCShop.Business.genruntimeconfig.cache
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\obj\Debug\net6.0\ref\BCShop.Business.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\bin\Debug\net6.0\BCShop.Data.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\bin\Debug\net6.0\BCShop.Entity.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\bin\Debug\net6.0\BCShop.Data.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\bin\Debug\net6.0\BCShop.Entity.pdb
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi\BCShop.Business\obj\Debug\net6.0\BCShop.Business.csproj.CopyComplete
