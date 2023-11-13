@@ -20,5 +20,6 @@ namespace BCShop.Data.Contexts
         public DbSet<Sales> Sales { get; set; }
         public DbSet<Site> Site { get; set; }
         public DbSet<User> Users { get; set; }
+
     }
 }

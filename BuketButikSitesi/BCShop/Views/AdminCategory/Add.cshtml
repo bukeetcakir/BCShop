@@ -1,0 +1,19 @@
+﻿@model BCShop.Entity.Concrete.Category
+@{
+}
+
+<link href="~/css/bootstrap.min.css" rel="stylesheet"/>
+<div class="row">
+	<div class="col-md-6">
+		<form method="post">
+			@Html.AntiForgeryToken()
+			@Html.ValidationSummary(true,"",  new{@class="btn btn-danger"})
+
+			<div class="form-group">
+				<label>Ad</label>
+				<input type="text" class="form-control" name="Name"/>
+				<label>Ad</label>
+			</div>
+		</form>
+	</div>
+</div>

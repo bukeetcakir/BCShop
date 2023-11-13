@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "2zmzcUrEGHmHyp3zf0PPZ5BkzltN4tHzenTSY1EqIMzuqHMRyJWuHLFwnRwrlS1qN5ETRfKGxySI5/Vyo4jxSQ==",
+  "dgSpecHash": "jtfb8T8r6hdLO61DRBlpqD2j8ngKd0rQgPVyYT1kcTt24+0QXvvswrYpM++/WVXlpcB7TtQQDynM6h9x+QxL8w==",
   "success": true,
   "projectFilePath": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop\\BCShop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Buket\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
