@@ -10,17 +10,23 @@ namespace BCShop.Controllers
 	{
 		//Get AdminCategory
 		public CategoryRepository categoryRepository;
-		public IActionResult Index()
+
+		public AdminCategoryController(CategoryRepository category)
+		{
+			categoryRepository = category;
+		}
+
+		public ActionResult Index()
 		{
 			return View(categoryRepository.GetAll());
 		}
-		public IActionResult Add()
+		public ActionResult Add()
 		{
 			return View();
 		}
 		[ValidateAntiForgeryToken]
 		[HttpPost]
-		public IActionResult Add(Category c)
+		public ActionResult Add(Category c)
 		{
 			if (ModelState.IsValid)
 			{
@@ -29,6 +35,34 @@ namespace BCShop.Controllers
 			}
 			ModelState.AddModelError("", "Bir hata oluştu");
 			return View();
+		}
+
+		public ActionResult Delete(int id)
+		{
+			var delete = categoryRepository.GetById(id);
+			categoryRepository.Delete(delete);
+			return RedirectToAction("Index");
+		}
+		public ActionResult Update(int id)
+		{
+			var update = categoryRepository.GetById(id);
+			return View(update);
+		}
+		[ValidateAntiForgeryToken]
+		[HttpPost]
+		public ActionResult Update(Category c)
+		{
+			if (ModelState.IsValid)
+			{
+				var update = categoryRepository.GetById(c.Id);
+				update.Name = c.Name;
+				update.Description = c.Description;
+				categoryRepository.Update(update);
+				return RedirectToAction("Index");
+			}
+			ModelState.AddModelError("", "Bir Hata oluştu");
+			return View();
+
 		}
 	}
 }

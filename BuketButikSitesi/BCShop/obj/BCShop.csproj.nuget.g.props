@@ -372,5 +372,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <PkgMicrosoft_EntityFrameworkCore_Tools Condition=" '$(PkgMicrosoft_EntityFrameworkCore_Tools)' == '' ">C:\Users\Buket\.nuget\packages\microsoft.entityframeworkcore.tools\7.0.13</PkgMicrosoft_EntityFrameworkCore_Tools>
+    <PkgjQuery Condition=" '$(PkgjQuery)' == '' ">C:\Users\Buket\.nuget\packages\jquery\1.8.3</PkgjQuery>
   </PropertyGroup>
 </Project>

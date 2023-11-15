@@ -1,6 +1,6 @@
 ﻿@model BCShop.Entity.Concrete.Category
 @{
-	ViewBag.Title = "Add";
+	ViewBag.Title = "Update";
 }
 
 <link href="~/css/bootstrap.min.css" rel="stylesheet"/>
@@ -13,17 +13,17 @@
 
 			<div class="form-group">
 				<label>Ad</label>
-				<input type="text" class="form-control" name="Name"/>
+				<input type="text" class="form-control" name="Name" value="@Model.Name"/>
 					@Html.ValidationMessageFor(x=>x.Name, "",new{ @style="color:red"})
 			</div>
 			<br />
 			<div class="form-group">
 				<label>Açıklama</label>
-				<input type="text" class="form-control" name="Description"/>
+				<input type="text" class="form-control" name="Description" value="@Model.Description"/>
 					@Html.ValidationMessageFor(x=>x.Description, "",new{ @style="color:red"})
 			</div>
 			<br />
-			<button class="btn btn-primary" type="submit">Ekle</button>
+			<button class="btn btn-primary" type="submit">Güncelle</button>
 		</form>
 	</div>
 </div>

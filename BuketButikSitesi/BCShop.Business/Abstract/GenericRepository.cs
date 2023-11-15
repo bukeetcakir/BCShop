@@ -9,10 +9,10 @@ using System.Threading.Tasks;
 
 namespace BCShop.Business.Abstract
 {
-	public class IGenericRepository<T> : IRepository<T> where T : class, new()
+	public class GenericRepository<T> : IRepository<T> where T : class, new()
 	{
 		protected readonly Context _dbContext;
-		public IGenericRepository(Context dbContext)
+		public GenericRepository(Context dbContext)
 		{
 			_dbContext = dbContext;
 		}
@@ -21,11 +21,6 @@ namespace BCShop.Business.Abstract
 		{
 			_dbContext.Set<T>().Add(entity);
 			_dbContext.SaveChanges();
-		}
-
-		public void Create(T item)
-		{
-			throw new NotImplementedException();
 		}
 
 		public void Delete(T entity)

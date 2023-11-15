@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "jtfb8T8r6hdLO61DRBlpqD2j8ngKd0rQgPVyYT1kcTt24+0QXvvswrYpM++/WVXlpcB7TtQQDynM6h9x+QxL8w==",
+  "dgSpecHash": "rfcUeem9t7t2rqosYRbfOyP5Jpw1g0iZWPeP0iMugNIA95UyHcI1xsV8RZSFSroqcXFDZX1w67sSzL8PKfbMeg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop\\BCShop.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Buket\\.nuget\\packages\\bootbox\\4.3.0\\bootbox.4.3.0.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\bootstrap\\5.3.2\\bootstrap.5.3.2.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Buket\\.nuget\\packages\\jquery\\1.8.3\\jquery.1.8.3.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\microsoft.data.sqlite.core\\7.0.13\\microsoft.data.sqlite.core.7.0.13.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.13\\microsoft.entityframeworkcore.7.0.13.nupkg.sha512",
     "C:\\Users\\Buket\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.13\\microsoft.entityframeworkcore.abstractions.7.0.13.nupkg.sha512",

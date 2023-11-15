@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BCShop.Business.Concrete
 {
-	public class CategoryRepository : IGenericRepository<Category>
+	public class CategoryRepository : GenericRepository<Category>
 	{
 		public CategoryRepository(Context dbContext) : base(dbContext)
 		{
