@@ -12,10 +12,8 @@ namespace BCShop.Business.Concrete
 {
 	public class ProductRepository : GenericRepository<Product>
 	{
-		public ProductRepository(Context dbContext) : base(dbContext)
+		public ProductRepository(DbContextOptions<Context> options) : base(options)
 		{
-
 		}
-
 	}
 }

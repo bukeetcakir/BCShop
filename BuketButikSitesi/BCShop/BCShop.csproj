@@ -22,4 +22,8 @@
     <ProjectReference Include="..\BCShop.Data\BCShop.Data.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="wwwroot\Images\" />
+  </ItemGroup>
+
 </Project>

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VYXsPy+ugiQSSTgoQcMArdhftvZCP4PnzlT0XiBjz8U=",
+  "Hash": "H6KbiWYMChlbevx0+eyBXOOPl0FF5MGrLmfZbTn+Bb8=",
   "Source": "BCShop",
   "BasePath": "_content/BCShop",
   "Mode": "Default",
@@ -831,6 +831,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop\\wwwroot\\Images\\sweatshirt-ice-blue.jpg",
+      "SourceId": "BCShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop\\wwwroot\\",
+      "BasePath": "_content/BCShop",
+      "RelativePath": "Images/sweatshirt-ice-blue.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\sweatshirt-ice-blue.jpg"
     },
     {
       "Identity": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop\\wwwroot\\js\\site.js",

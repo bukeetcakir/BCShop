@@ -8,12 +8,11 @@ namespace BCShop.Controllers
 {
 	public class AdminCategoryController : Controller
 	{
-		//Get AdminCategory
-		public CategoryRepository categoryRepository;
+		private CategoryRepository categoryRepository;
 
-		public AdminCategoryController(CategoryRepository category)
+		public AdminCategoryController(CategoryRepository categoryRepository)
 		{
-			categoryRepository = category;
+			this.categoryRepository = categoryRepository;
 		}
 
 		public ActionResult Index()
@@ -30,7 +29,7 @@ namespace BCShop.Controllers
 		{
 			if (ModelState.IsValid)
 			{
-				categoryRepository.Update(c);
+				categoryRepository.Add(c);
 				return RedirectToAction("Index");
 			}
 			ModelState.AddModelError("", "Bir hata oluştu");

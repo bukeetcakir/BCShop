@@ -181,6 +181,10 @@
       "PackagePath": "staticwebassets\\BCShop.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop\\wwwroot\\Images\\sweatshirt-ice-blue.jpg",
+      "PackagePath": "staticwebassets\\Images\\sweatshirt-ice-blue.jpg"
+    },
+    {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi\\BCShop\\wwwroot\\NiceAdmin\\404.html",
       "PackagePath": "staticwebassets\\NiceAdmin\\404.html"
     },

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace BCShop.Business.Abstract
 {
-	public interface IRepository<T> where T : class, new()
+	public interface IRepository<T> 
 	{
 		List<T> GetAll();
 		void Add(T item);

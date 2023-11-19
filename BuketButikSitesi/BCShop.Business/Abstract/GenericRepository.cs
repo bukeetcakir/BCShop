@@ -9,12 +9,14 @@ using System.Threading.Tasks;
 
 namespace BCShop.Business.Abstract
 {
-	public class GenericRepository<T> : IRepository<T> where T : class, new()
+	public class GenericRepository<T> : IRepository<T> where T : class
 	{
 		protected readonly Context _dbContext;
-		public GenericRepository(Context dbContext)
+
+		public GenericRepository(DbContextOptions<Context> options)
 		{
-			_dbContext = dbContext;
+			Context context = new Context(options);
+			_dbContext = context;
 		}
 
 		public void Add(T entity)
@@ -45,5 +47,6 @@ namespace BCShop.Business.Abstract
 			_dbContext.SaveChanges();
 
 		}
+
 	}
 }
