@@ -1,0 +1,108 @@
+﻿
+@{
+    ViewData["Title"] = "UserLayout";
+}
+
+
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>BC·Shop</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<meta name="keywords" content="Weblog a Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+
+	<script>
+		addEventListener("load", function () {
+			setTimeout(hideURLbar, 0);
+		}, false);
+
+		function hideURLbar() {
+			window.scrollTo(0, 1);
+		}
+	</script>
+	<link href="~/BCShopTheme/css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="~/BCShopTheme/css/single.css">
+	<link href="~/BCShopTheme/css/style.css" rel='stylesheet' type='text/css' />
+	<link href="~/BCShopTheme/css/fontawesome-all.css" rel="stylesheet">
+	<link href="//fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800"
+		rel="stylesheet">
+</head>
+
+<body>
+	<!--Header-->
+
+	<header>
+		@await Html.PartialAsync("HeaderPartial")
+		@await Html.PartialAsync("NavbarPartial")
+
+		
+	</header>
+	<!--//header-->
+	<!--/banner-->
+	<div class="banner-inner">
+	</div>
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a href="index.html">Home</a>
+		</li>
+		<li class="breadcrumb-item active">Blog3</li>
+	</ol>
+	<!--//banner-->
+
+	<!--/main-->
+	@RenderBody()
+	<!--//main-->
+	@await Html.PartialAsync("FooterPartial")
+	<!---->
+
+	<!-- js -->
+	<script src="~/BCShopTheme/js/jquery-2.2.3.min.js"></script>
+	<!-- //js -->
+	<!--/ start-smoth-scrolling -->
+	<script src="~/BCShopTheme/js/move-top.js"></script>
+	<script src="~/BCShopTheme/js/easing.js"></script>
+	<script>
+		jQuery(document).ready(function ($) {
+			$(".scroll").click(function (event) {
+				event.preventDefault();
+				$('html,body').animate({
+					scrollTop: $(this.hash).offset().top
+				}, 900);
+			});
+		});
+	</script>
+	<!--// end-smoth-scrolling -->
+
+	<script>
+		$(document).ready(function () {
+			/*
+									var defaults = {
+										  containerID: 'toTop', // fading element id
+										containerHoverID: 'toTopHover', // fading element hover id
+										scrollSpeed: 1200,
+										easingType: 'linear' 
+									 };
+									*/
+
+			$().UItoTop({
+				easingType: 'easeOutQuart'
+			});
+
+		});
+	</script>
+	<a href="#home" class="scroll" id="toTop" style="display: block;">
+		<span id="toTopHover" style="opacity: 1;"> </span>
+	</a>
+
+	<!-- //Custom-JavaScript-File-Links -->
+	<script src="~/BCShopTheme/js/bootstrap.js"></script>
+
+
+</body>
+
+</html>
+
+
