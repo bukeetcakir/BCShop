@@ -1,0 +1,14 @@
+﻿@model IEnumerable<BCShop.Entity.Concrete.Comment>
+
+<div class="comment-top">
+						<h4>Yorumlar</h4>
+	@foreach (var c in Model)
+	{
+				<div class="media">
+					<div class="media-body">
+						<h5 class="mt-0">@c.UserName</h5>				
+						<p>@c.Content</p>				
+					</div>								
+				</div>
+	}
+</div>

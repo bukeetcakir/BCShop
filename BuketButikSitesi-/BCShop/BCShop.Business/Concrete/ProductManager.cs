@@ -32,7 +32,10 @@ namespace BCShop.Business.Concrete
 		{
 			throw new NotImplementedException();
 		}
-
+		public List<Product> GetProductById(int id)
+		{
+			return _productDAL.GetAll(x => x.ProductID == id);
+		}
 		public List<Product> GetList()
 		{
 			return _productDAL.GetAll();
