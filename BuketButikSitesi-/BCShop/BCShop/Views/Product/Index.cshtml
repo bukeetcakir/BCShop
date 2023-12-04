@@ -17,25 +17,25 @@
 					@foreach (var p in Model)
 					{
 							<div class="col-lg-4 card">
-									<a href="/Product/Products/@p.ProductID">
+									<a href="/Product/Details/@p.ProductID">
 									<img src="@p.ImageUrl" class="card-img-top img-fluid" alt="">
 								</a>
 								<div class="card-body">
 									<h5 class="card-title">
-											<a href="/Product/Products/@p.ProductID">@p.Name</a>
+											<a href="/Product/Details/@p.ProductID">@p.Name</a>
 									</h5>
 									<ul class="blog-icons my-4">
 										<li>
-												<a href="/Product/Products/@p.ProductID">
+												<a href="/Product/Details/@p.ProductID">
 													₺ @p.Price</a>
 										</li>
 										<li>
-												<a href="/Product/Products/@p.ProductID">
+												<a href="/Product/Details/@p.ProductID">
 													@p.Category.Name</a>
 										</li>
 									</ul>
 									
-									<a href="/Product/Products/@p.ProductID" class="btn btn-primary read-m">Ürünü İncele</a>
+									<a href="/Product/Details/@p.ProductID" class="btn btn-primary read-m">Ürünü İncele</a>
 								</div>
 							</div>
 					}

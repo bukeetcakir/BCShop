@@ -250,3 +250,10 @@ C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\obj\Debug\net6.0\BCShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\JetBrains.Annotations.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\X.PagedList.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll

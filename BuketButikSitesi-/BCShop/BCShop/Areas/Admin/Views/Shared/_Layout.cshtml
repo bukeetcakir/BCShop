@@ -1,0 +1,25 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>BCShop | Admin Paneli</title>
+  @await Html.PartialAsync("_StylesPartial")
+  @await RenderSectionAsync("CssCodes", false)
+</head>
+
+<body class="hold-transition sidebar-mini layout-fixed">
+
+  <div class="wrapper">
+
+    @await Html.PartialAsync("_NavbarPartial")
+    @await Html.PartialAsync("_SidebarMenuPartial")
+    @RenderBody()
+    @await Html.PartialAsync("_FooterPartial")
+  </div>
+  @await Html.PartialAsync("_ScriptsPartial")
+  @await RenderSectionAsync("JsCodes", false)
+</body>
+
+</html>

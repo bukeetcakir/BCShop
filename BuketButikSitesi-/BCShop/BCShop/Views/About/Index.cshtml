@@ -1,0 +1,39 @@
+﻿@model List<BCShop.Entity.Concrete.About>
+@{
+	ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+
+
+<div class="banner-inner">
+	</div>
+	<ol class="breadcrumb">
+		<li class="breadcrumb-item">
+			<a href="index.html">Ana Sayfa</a>
+		</li>
+		<li class="breadcrumb-item active">Hakkımızda</li>
+	</ol>
+	<!--//banner-->
+	<!--/main-->
+	<section class="main-content-w3layouts-agileits">
+		<div class="container">
+			<h3 class="tittle">Hakkımızda</h3>
+			<div class="row inner-sec">
+				<!--left-->
+				<div class="col-lg-12 left-blog-info-w3layouts-agileits text-left">
+				@foreach (var a in Model)
+				{
+						<div class="blog-grid-top">
+							<h3>
+							@a.Details1
+							</h3>
+							<p>@a.Details2</p>
+						</div>
+				}
+				</div>
+				<!--//left-->
+
+			</div>
+		</div>
+	</section>

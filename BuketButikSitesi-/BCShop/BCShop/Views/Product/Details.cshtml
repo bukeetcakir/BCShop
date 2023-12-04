@@ -1,0 +1,64 @@
+﻿@model IEnumerable<BCShop.Entity.Concrete.Product>
+@{
+	ViewData["Title"] = "Details";
+	Layout = "~/Views/Shared/UserLayout.cshtml";
+}
+
+<body>
+
+
+	<!--//banner-->
+	<section class="banner-bottom">
+		<!--/blog-->
+		<div class="container">
+			<div class="row">
+				<!--left-->
+				<div class="col-lg-8 left-blog-info-w3layouts-agileits text-left">
+					@foreach (var p in Model)
+					{
+							<div class="blog-grid-top">
+								<div class="b-grid-top">
+									<div class="blog_info_left_grid">
+										<a href="#">
+											<img src="@p.ImageUrl" class="img-fluid" alt="">
+										</a>
+									</div>
+								</div>
+							</div>
+					}
+					
+					@await Component.InvokeAsync("CommentListByProduct",new {id=ViewBag.Id})
+					@await  Html.PartialAsync("~/Views/Comment/PartialAddComment.cshtml")
+
+				</div>
+
+				<!--//left-->
+				<!--right-->
+				<aside class="col-lg-4 agileits-w3ls-right-blog-con text-right">
+					<div class="right-blog-info text-left sticky-top pt-5">
+						@foreach (var p in Model)
+						{
+							<div class="tech-btm">
+								<h2>@p.Name</h2>
+								<h4>₺ @p.Price </h4>
+								<form action="#" method="post">
+									<input type="submit" value="Sepete Ekle">
+								</form>
+
+							</div>
+							<div class="tech-btm">
+								<h4>Ürün Özellikleri</h4>
+								<p>@p.Note</p>
+							</div>
+						}
+
+				</aside>
+				<!--//right-->
+			</div>
+		</div>
+	</section>
+
+</body>
+
+</html>
+

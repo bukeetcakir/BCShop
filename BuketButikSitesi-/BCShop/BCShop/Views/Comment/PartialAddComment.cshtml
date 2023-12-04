@@ -1,12 +1,12 @@
 ﻿<div class="comment-top">
 						<h4>Bir Yorum Yapın</h4>
 						<div class="comment-bottom">
-							<form action="#" method="post">
-								<input class="form-control" type="text" name="Name" placeholder="Name" required="">
+							<form asp-controller="Comment" asp-action="PartialAddComment" method="post">
+								<input class="form-control" type="text" name="Name" placeholder="Adınız Soyadınız" required="">
 								<input class="form-control" type="email" name="Email" placeholder="Email" required="">
 
 								<textarea class="form-control" name="Message" placeholder="Yorum yazınız..." required=""></textarea>
-								<button type="submit" class="btn btn-primary submit">Submit</button>
+								<button type="submit" class="btn btn-primary submit">Yorum Yap</button>
 							</form>
 						</div>
 					</div>

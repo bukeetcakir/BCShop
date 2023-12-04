@@ -18,14 +18,25 @@ namespace BCShop.Business.Concrete
 			_categoryDAL = categoryDAL;
 		}
 
-		public void AddCategory(Category category)
+		//public void AddCategory(Category category)
+		//{
+		//	_categoryDAL.Insert(category);
+		//}
+
+		public void AddT(Category t)
 		{
-			_categoryDAL.Insert(category);
+			_categoryDAL.Insert(t);
+
 		}
 
-		public void DeleteCategory(Category category)
+		//public void DeleteCategory(Category category)
+		//{
+		//	_categoryDAL.Delete(category);
+		//}
+
+		public void DeleteT(Category t)
 		{
-			_categoryDAL.Delete(category);
+			_categoryDAL.Delete(t);
 		}
 
 		public Category GetById(int id)
@@ -38,9 +49,14 @@ namespace BCShop.Business.Concrete
 			return _categoryDAL.GetAll();
 		}
 
-		public void UpdateCategory(Category category)
+		//public void UpdateCategory(Category category)
+		//{
+		//	_categoryDAL.Update(category);
+		//}
+
+		public void UpdateT(Category t)
 		{
-			_categoryDAL.Update(category);
+			_categoryDAL.Update(t);
 		}
 	}
 }

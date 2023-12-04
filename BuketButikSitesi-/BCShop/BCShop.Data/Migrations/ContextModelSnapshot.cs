@@ -39,15 +39,12 @@ namespace BCShop.Data.Migrations
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image1")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("Image2")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("MapLocation")
-                        .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<bool>("Status")
@@ -55,7 +52,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("AboutID");
 
-                    b.ToTable("Abouts", (string)null);
+                    b.ToTable("Abouts");
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Category", b =>
@@ -79,7 +76,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("CategoryID");
 
-                    b.ToTable("Categories", (string)null);
+                    b.ToTable("Categories");
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Comment", b =>
@@ -116,7 +113,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Comments", (string)null);
+                    b.ToTable("Comments");
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Contact", b =>
@@ -151,7 +148,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("ContactID");
 
-                    b.ToTable("Contacts", (string)null);
+                    b.ToTable("Contacts");
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Product", b =>
@@ -194,7 +191,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasIndex("CategoryID");
 
-                    b.ToTable("Products", (string)null);
+                    b.ToTable("Products");
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.User", b =>
@@ -223,7 +220,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("UserID");
 
-                    b.ToTable("Users", (string)null);
+                    b.ToTable("Users");
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Comment", b =>

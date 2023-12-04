@@ -12,7 +12,7 @@ namespace BCShop.Controllers
 			var products = pm.GetProductListWithCategory();
 			return View(products);
 		}
-		public IActionResult Products(int id)
+		public IActionResult Details(int id)
 		{
 			ViewBag.Id = id;
 			var products = pm.GetProductById(id);

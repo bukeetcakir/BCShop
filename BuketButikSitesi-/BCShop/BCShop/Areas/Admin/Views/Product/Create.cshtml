@@ -1,0 +1,112 @@
+@model BCShop.Entity.Concrete.Product
+@{
+	ViewData["Title"] = "Create";
+}
+
+<div class="content-wrapper">
+	<!-- Content Header (Page header) -->
+	<section class="content-header">
+		<div class="container-fluid">
+			<div class="row mb-2">
+				<div class="col-sm-6">
+					<h1>Yeni Ürün</h1>
+				</div>
+				<div class="col-sm-6">
+					<ol class="breadcrumb float-sm-right">
+						<li class="breadcrumb-item"><a asp-area="Admin">Anasayfa</a></li>
+						<li class="breadcrumb-item active">Ürün Ekle</li>
+					</ol>
+				</div>
+			</div>
+		</div><!-- /.container-fluid -->
+	</section>
+
+	<!-- Main content -->
+	<section class="content">
+		<form asp-area="Admin" asp-controller="Product" asp-action="Create" method="post" enctype="multipart/form-data">
+			<div class="row">
+				<div class="col-md-9">
+					<div class="card card-primary">
+						<div class="card-header">
+							<h3 class="card-title">Ürün Bilgileri</h3>
+
+							<div class="card-tools">
+								<button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+									<i class="fas fa-minus"></i>
+								</button>
+							</div>
+						</div>
+						<div class="card-body row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Name"></label>
+									<input asp-for="Name" class="form-control">
+									<span class="text-danger" asp-validation-for="Name"></span>
+								</div>
+								<div class="form-group">
+									<label asp-for="Properties"></label>
+									<textarea asp-for="Properties" class="form-control" rows="4"></textarea>
+									<span class="text-danger" asp-validation-for="Properties"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Price"></label>
+									<input asp-for="Price" class="form-control">
+									<span class="text-danger" asp-validation-for="Price"></span>
+								</div>
+								<div class="form-group">
+									<label asp-for="Note"></label>
+									<textarea asp-for="Note" class="form-control" rows="4"></textarea>
+									<span class="text-danger" asp-validation-for="Note"></span>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="form-group">
+									<label asp-for="Amount"></label>
+									<textarea asp-for="Amount" class="form-control" rows="4"></textarea>
+									<span class="text-danger" asp-validation-for="Amount"></span>
+								</div>
+								<div class="form-group mb-3">
+									<label for="formFile" class="form-label">Default file input example</label>
+									<input class="form-control" type="file" id="image" name="image" accept="image/jpeg">
+								</div>
+							</div>
+
+
+						</div>
+						<!-- /.card-body -->
+					</div>
+					<!-- /.card -->
+				</div>
+				<div class="col-md-3">
+					<div class="card card-secondary">
+						<div class="card-header">
+							<h3 class="card-title">Kategoriler</h3>
+
+							<div class="card-tools">
+								<button type="button" class="btn btn-tool" data-card-widget="collapse" title="Collapse">
+									<i class="fas fa-minus"></i>
+								</button>
+							</div>
+						</div>
+						<div class="card-body">
+							@Html.DropDownListFor(x=>x.CategoryID,(List<SelectListItem>)ViewBag.cv,new { @class="form-control"})
+						</div>
+
+						<!-- /.card-body -->
+					</div>
+					<!-- /.card -->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-12">
+					<a href="#" class="btn btn-secondary">Vazgeç</a>
+					<input type="submit" value="Oluştur" class="btn btn-success">
+				</div>
+			</div>
+		</form>
+	</section>
+	<!-- /.content -->
+</div>
+<!-- /.content-wrapper -->

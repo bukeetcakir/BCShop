@@ -18,21 +18,12 @@ namespace BCShop.Business.Concrete
 			_productDAL = productDAL;
 		}
 
-		public void AddProduct(Product product)
-		{
-			throw new NotImplementedException();
-		}
-
-		public void DeleteProduct(Product product)
-		{
-			throw new NotImplementedException();
-		}
-
+		
 		public Product GetById(int id)
 		{
-			throw new NotImplementedException();
-		}
-		public List<Product> GetProductById(int id)
+            return _productDAL.GetById(id);
+        }
+        public List<Product> GetProductById(int id)
 		{
 			return _productDAL.GetAll(x => x.ProductID == id);
 		}
@@ -46,9 +37,21 @@ namespace BCShop.Business.Concrete
 			return _productDAL.GetProductsWithCategory();
 		}
 
-		public void UpdateProduct(Product product)
-		{
-			throw new NotImplementedException();
-		}
-	}
+
+        public void AddT(Product t)
+        {
+            _productDAL.Insert(t);
+        }
+
+        public void DeleteT(Product t)
+        {
+            _productDAL.Delete(t);
+
+        }
+
+        public void UpdateT(Product t)
+        {
+            _productDAL.Update(t);
+        }
+    }
 }

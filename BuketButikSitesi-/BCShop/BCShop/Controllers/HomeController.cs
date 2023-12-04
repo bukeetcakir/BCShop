@@ -1,4 +1,6 @@
-﻿using BCShop.Models;
+﻿using BCShop.Business.Concrete;
+using BCShop.Data.EntityFramework;
+using BCShop.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -8,6 +10,7 @@ namespace BCShop.Controllers
 	{
 		private readonly ILogger<HomeController> _logger;
 
+		//ProductManager pm = new ProductManager(new EFProductRepository());
 		public HomeController(ILogger<HomeController> logger)
 		{
 			_logger = logger;
@@ -15,6 +18,7 @@ namespace BCShop.Controllers
 
 		public IActionResult Index()
 		{
+			//var values = pm.GetProductListWithCategory();
 			return View();
 		}
 
