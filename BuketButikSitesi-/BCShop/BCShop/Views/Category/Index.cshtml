@@ -1,30 +1,8 @@
-﻿@using BCShop.Entity.Concrete
-@model List<Category>
+﻿
 @{
-	//ViewData["Title"] = "Index";
-	Layout = null;
+    ViewData["Title"] = "Index";
+	Layout = "~/Views/Shared/UserLayout.cshtml";
 }
 
-<link href="h~/css/bootstrap.css" rel="stylesheet" />
-<link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet" />
-<table class="table table-bordered">
-	<tr>
-		<th>ID</th>
-		<th>Kategori Adı</th>
-		<th>Açıklama</th>
-		<th>Aktif</th>
-		<th>Sil</th>
-	</tr>
-	@foreach (var item in Model)
-	{
-			<tr>
-				<td>@item.CategoryID</td>
-				<td>@item.Name</td>
-				<td>@item.Description</td>
-				<td>@item.Status</td>
-				<td><a href="#" class="btn btn-danger">Sil</a></td>
-			</tr>
-	}
-</table>
-
+<h1>Index</h1>
 

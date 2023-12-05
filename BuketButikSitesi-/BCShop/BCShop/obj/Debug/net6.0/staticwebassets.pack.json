@@ -37,6 +37,10 @@
       "PackagePath": "staticwebassets\\BCShopTheme\\css\\fontawesome-all.css"
     },
     {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\css\\index.html",
+      "PackagePath": "staticwebassets\\BCShopTheme\\css\\index.html"
+    },
+    {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\css\\jquery.desoslide.css",
       "PackagePath": "staticwebassets\\BCShopTheme\\css\\jquery.desoslide.css"
     },

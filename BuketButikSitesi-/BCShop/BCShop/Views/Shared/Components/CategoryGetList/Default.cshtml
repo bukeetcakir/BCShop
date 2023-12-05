@@ -4,5 +4,5 @@
 @foreach (var c in Model)
 {
 		<div class="dropdown-divider"></div>
-		<a class="dropdown-item" asp-controller="Category" asp-action="Index">@c.Name</a>
+		<a class="dropdown-item" asp-controller="Category" asp-action="Details" asp-route-id="@c.CategoryID">@c.Name</a>
 }

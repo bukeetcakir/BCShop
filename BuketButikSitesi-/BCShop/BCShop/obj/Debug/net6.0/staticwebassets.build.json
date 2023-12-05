@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Ds7UE3Ba19+Wg30QJrQLUKv/fKmpuBj4H9cBgw4MX1s=",
+  "Hash": "MqhJPwG2dU/XrDRXY3ABKleACK40X8xVLm2zMu3KG4Y=",
   "Source": "BCShop",
   "BasePath": "_content/BCShop",
   "Mode": "Default",
@@ -35103,6 +35103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\BCShopTheme\\css\\fontawesome-all.css"
+    },
+    {
+      "Identity": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\css\\index.html",
+      "SourceId": "BCShop",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\",
+      "BasePath": "_content/BCShop",
+      "RelativePath": "BCShopTheme/css/index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\BCShopTheme\\css\\index.html"
     },
     {
       "Identity": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\css\\jquery.desoslide.css",
