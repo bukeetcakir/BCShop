@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace BCShop.Business.Abstract
 {
-	public interface IUserService
+	public interface IUserService 
 	{
 		void UserAdd(User user);
 	}

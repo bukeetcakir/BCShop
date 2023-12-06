@@ -43,6 +43,7 @@ namespace BCShop.Data.Repositories
 
 		public void Update(T entity)
 		{
+
 			c.Update(entity);
 			c.SaveChanges();
 		}

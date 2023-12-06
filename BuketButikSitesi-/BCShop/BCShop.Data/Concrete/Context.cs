@@ -15,6 +15,7 @@ namespace BCShop.Data.Concrete
 			optionsBuilder.UseSqlServer("server=DESKTOP-9CBVP35; database=BCShop.db; integrated security=true");
 		}
 		public DbSet<About> Abouts { get; set; }
+		public DbSet<Cart> Carts { get; set; }
 		public DbSet<Category> Categories { get; set; }
 		public DbSet<Comment> Comments { get; set; }
 		public DbSet<Contact> Contacts { get; set; }

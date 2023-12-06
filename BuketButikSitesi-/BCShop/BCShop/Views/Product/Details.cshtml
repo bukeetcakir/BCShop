@@ -41,19 +41,18 @@
 							<div class="tech-btm">
 								<h2>@p.Name</h2>
 								<h4>₺ @p.Price </h4>
-									<div class="row pl-2 mb-3">
-									<div class="col-md-4">
-										<div class="input-group mb-3">
-											<span class="input-group-text bg-primary text-white border-0 fw-semibold">
-												Miktar
-											</span>
-											<input type="number" value="1" class="form-control text-end" aria-label="Sizing" >
-										</div>
-									</div>
-								</div>
-								<form action="#" method="post">
-									<input type="submit" value="Sepete Ekle">
-								</form>
+										<form asp-controller="Cart" asp-action="AddToCart" method="post" class="form-inline">
+					<input type="hidden" name="ProductID" value="@p.ProductID" />
+					<div class="input-group mb-3">
+						<input type="number" name="Quantity" class="form-control" value="1" min="1" step="1" style="width:100px;" />
+						<div class="input-group-append">
+							<button type="submit" class="btn btn-secondary">
+								<i class="fas fa-cart-plus"></i> Sepete Ekle
+							</button>
+						</div>
+					</div>
+				</form>
+
 
 							</div>
 							<div class="tech-btm">
