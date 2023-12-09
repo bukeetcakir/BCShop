@@ -2,6 +2,7 @@
 
 ## Proje Hakkında
 Bu AspNet Core 6.0 tabanlı proje, bir butik mağazasının ürünlerini ve bilgilerini yönetmesini sağlar. Kullanıcıların ürünleri görüntüleyip, yorum yapabildiği ve ürünlerini sepete eklediği etkileşimler bulunmaktadır. Hem admin hem de vitrin paneli bulunmaktadır.  
+
 Çalıştırmak için BCShop. Data klasöründe Context sınıfından yerel SQL bağlantınızı yazarak ve database'i update ederek sorunsuz bir şekilde çalıştırabilirsiniz.
 
 -Admin paneline giriş yapabilmek için kullanıcı maili : admin@admin.com parola: admin
@@ -21,20 +22,20 @@ Proje, aşağıdaki ana başlıkları içermektedir:
 
 ## Önizleme
 `Anasayfa`
-![HomePage](preview/homepage.png)
+![HomePage](preview/homepage.PNG)
 
 `Hakkında`
-![HomePage](preview/about.png)
+![HomePage](preview/about.PNG)
 
 `Ürünler`
-![HomePage](preview/products.png)
+![HomePage](preview/products.PNG)
 
 `Sepet`
-![HomePage](preview/cart.png)
+![HomePage](preview/cart.PNG)
 
 `İletişim`
-![HomePage](preview/contact.png)
+![HomePage](preview/contact.PNG)
 
 `Admin`
-![HomePage](preview/admin.png)
+![HomePage](preview/admin.PNG)
 
