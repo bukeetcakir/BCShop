@@ -23,7 +23,7 @@ namespace BCShop.Business.Concrete
 		{
             return _productDAL.GetById(id);
         }
-        public List<Product> GetProductById(int id)
+        public List<Product> GetProductsById(int id)
 		{
 			return _productDAL.GetAll(x => x.ProductID == id);
 		}

@@ -1,6 +1,7 @@
 ﻿using BCShop.Business.Concrete;
 using BCShop.Data.EntityFramework;
 using BCShop.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
@@ -8,6 +9,7 @@ using System.Net;
 
 namespace BCShop.Controllers
 {
+	[AllowAnonymous]
 	public class CartController : Controller
 	{
 		CartManager cm = new CartManager(new EFCartRepository());
@@ -90,9 +92,9 @@ namespace BCShop.Controllers
 			return View(model);
 		}
 
-		
+        
 
-		private void ClearCart(int cartId)
+        private void ClearCart(int cartId)
 		{
 			cm.ClearCart(cartId);
 		}

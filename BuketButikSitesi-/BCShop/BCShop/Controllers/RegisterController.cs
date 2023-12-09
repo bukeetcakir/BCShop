@@ -3,10 +3,12 @@ using BCShop.Business.ValidationRules;
 using BCShop.Data.EntityFramework;
 using BCShop.Entity.Concrete;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BCShop.Controllers
 {
+	[AllowAnonymous]
 	public class RegisterController : Controller
 	{
 		UserManager um = new UserManager(new EFUserRepository());

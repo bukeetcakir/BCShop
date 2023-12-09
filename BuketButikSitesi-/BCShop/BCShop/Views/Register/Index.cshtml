@@ -7,44 +7,63 @@
 <section class="main-content-w3layouts-agileits">
 		<div class="container">
 			<h3 class="tittle">Kayıt Ol</h3>
-				<div class="inner-sec">
-			<div class="login p-5 bg-light mx-auto mw-100">
+				<div class="row inner-sec">
+			<div class="p-5 bg-light mx-auto mw-100">
 				@using (Html.BeginForm("Index", "Register", FormMethod.Post))
 				{
-										<div class="form-row">
-												<div class="col-md-6 mb-3">
+										<div class="container">
+													<div class="form-group">
 														<label for="validationCustom01">Adınız Soyadınız</label>
 							@Html.TextBoxFor(x=>x.Name, new {@class="form-control"})
 							@Html.ValidationMessageFor(x=>x.Name,"", new {@class="text-danger"})
 
 												</div>
-												<div class="col-md-6 mb-3">
+												<div class="form-group">
 														<label for="validationCustom02">Mail Adresi</label>
 							@Html.TextBoxFor(x=>x.Email, new {@class="form-control"})
 							@Html.ValidationMessageFor(x=>x.Email,"", new {@class="text-danger"})
 												</div>
-											</div>
-											<div class="form-row">
-												<div class="form-group col-md-6">
+												<div class="form-group">
 														<label for="exampleInputPassword1 mb-2">Şifre</label>
-							@Html.TextBoxFor(x=>x.Password, new {@class="form-control"})
+							@Html.PasswordFor(x=>x.Password, new {@class="form-control"})
 							@Html.ValidationMessageFor(x=>x.Password,"", new {@class="text-danger"})
 												</div>
-												<div class="form-group col-md-6">
+												<div class="form-group">
 														<label for="exampleInputPassword2 mb-2">Şifre Onayı</label>
-							@Html.TextBoxFor(x=>x.Password, new {@class="form-control"})
+							@Html.PasswordFor(x=>x.Password, new {@class="form-control"})
 							@Html.ValidationMessageFor(x=>x.Password,"", new {@class="text-danger"})
-														@*<input type="password" class="form-control" id="password2" placeholder="" required="">*@
+													
 													</div>
 
+											<button type="submit" class="btn btn-primary submit mb-4" id="btn-register">Kayıt Ol</button>
+										<p>
+											<a href="#" id="btn-conditions">Tüm şartları okudum. Kabul ediyorum.</a>
+										</p>
 											</div>
-											<button type="submit" class="btn btn-primary submit mb-4">Kayıt Ol</button>
-												<p>
-													<a href="#">Tüm şartları okudum. Kabul ediyorum.</a>
-												</p>
 				}
 
 					</div>
 			</div>
 		</div>
 	</section>
+
+
+	
+	<script src="~/lib/jquery/dist/jquery.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script>
+		$('#btn-register').click(function(){
+			Swal.fire({
+			title: "Kayıt oldunuz!",
+			text: "Kayıt başarıyla tamamlandı",
+			icon: "success"});
+		});
+		$('#btn-conditions').click(function(){
+			Swal.fire({
+			title: "Gizlilik Politikası",
+			text: "Bizimle paylaştığınız kişisel verileriniz sadece analiz yapmak suretiyle; sunduğumuz hizmetlerin gerekliliklerini en iyi şekilde yerine getirebilmek, bu hizmetlere sizin tarafınızdan ulaşılabilmesini ve maksimum düzeyde faydalanılabilmesini sağlamak, hizmetlerimizi, ihtiyaçlarınız doğrultusunda geliştirebilmek ve sizleri daha geniş kapsamlı hizmet sağlayıcıları ile yasal çerçeveler içerisinde buluşturabilmek ve kanundan doğan zorunlulukların (kişisel verilerin talep halinde adli ve idari makamlarla paylaşılması) yerine getirilebilmesi amacıyla, sözleşme ve hizmet süresince, amacına uygun ve ölçülü bir şekilde işlenecek ve güncellenecektir.",
+			icon: "info"});
+		});
+
+	</script>
+

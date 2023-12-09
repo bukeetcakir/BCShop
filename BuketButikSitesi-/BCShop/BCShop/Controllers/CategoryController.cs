@@ -1,9 +1,11 @@
 ﻿using BCShop.Business.Concrete;
 using BCShop.Data.EntityFramework;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BCShop.Controllers
 {
+	[AllowAnonymous]
 	public class CategoryController : Controller
 	{
 		CategoryManager categoryManager = new CategoryManager(new EFCategoryRepository());

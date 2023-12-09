@@ -8,6 +8,7 @@ using BCShop.Business.ValidationRules;
 using BCShop.Data.EntityFramework;
 using BCShop.Entity.Concrete;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -15,7 +16,8 @@ using Microsoft.Extensions.Logging;
 namespace BCShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    public class CategoryController : Controller
+	[Authorize(Policy = "AdminPolicy")]
+	public class CategoryController : Controller
     {
         CategoryManager cm = new CategoryManager(new EFCategoryRepository());
         public IActionResult Index()

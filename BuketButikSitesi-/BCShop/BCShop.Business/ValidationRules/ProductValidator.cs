@@ -17,7 +17,6 @@ namespace BCShop.Business.ValidationRules
             RuleFor(x => x.Name).MinimumLength(2).WithMessage("Ürün adı min 2 karakter olmalıdır");
             RuleFor(x => x.Properties).NotEmpty().WithMessage("Ürün özellikleri boş geçilemez");
             RuleFor(x => x.Price).NotEmpty().WithMessage("Ürün fiyatı boş geçilemez");
-            RuleFor(x => x.ImageUrl).NotEmpty().WithMessage("Ürün görseli boş geçilemez");
         }
     }
 }

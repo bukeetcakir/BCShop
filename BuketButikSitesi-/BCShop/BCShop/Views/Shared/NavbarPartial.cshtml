@@ -36,12 +36,24 @@
 						</li>
 
 					</ul>
-					<form action="#" method="post" class="form-inline my-2 my-lg-0 header-search">
-						<input class="form-control mr-sm-2" type="search" placeholder="Arama..." name="Search" required="">
-						<button class="btn btn1 my-2 my-sm-0" type="submit">
-							<i class="fas fa-search"></i>
-						</button>
-					</form>
+					
+					<div class="form-inline my-2 my-lg-0 header-search">
+						<ul class="navbar-nav mr-auto">
+						<li class="nav-item">
+						<a asp-controller="Login" asp-action="Index" class="btn btn-primary read-m my-2 my-sm-0">
+							<i class="fas fa-lock"></i>
+						</a>
+						</li>
+						<li class="nav-item">
+						<a asp-controller="Cart" asp-action="Index" class="btn btn-primary read-m my-2 my-sm-0">
+							<div class="cart-icon">
+								<i class="fas fa-shopping-cart"></i>
+								<span class="badge badge-pill badge-light">@await Component.InvokeAsync("CartItemCount")</span>
+							</div>
+						</a>
+						</li>
+						</ul>
+					</div>
 
 
 

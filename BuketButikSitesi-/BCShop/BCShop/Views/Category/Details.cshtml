@@ -14,28 +14,31 @@
 					<div class="row">
 					@foreach (var p in Model)
 					{
+						if (p.Status)
+						{
 									<div class="col-lg-4 card">
-											<a href="/Product/Details/@p.ProductID">
-											<img src="@p.ImageUrl" class="card-img-top img-fluid" alt="">
-										</a>
-										<div class="card-body">
-											<h5 class="card-title">
-													<a href="/Product/Details/@p.ProductID">@p.Name</a>
-											</h5>
-											<ul class="blog-icons my-4">
-												<li>
-														<a href="/Product/Details/@p.ProductID">
-															₺ @p.Price</a>
-												</li>
-												@*<li>
+													<a href="/Product/Details/@p.ProductID">
+													<img src="@p.ImageUrl" class="card-img-top img-fluid" alt="">
+												</a>
+												<div class="card-body">
+													<h5 class="card-title">
+															<a href="/Product/Details/@p.ProductID">@p.Name</a>
+													</h5>
+													<ul class="blog-icons my-4">
+														<li>
+																<a href="/Product/Details/@p.ProductID">
+												@p.Price.ToString("c")</a>
+														</li>
+										@*<li>
 														<a href="/Product/Details/@p.ProductID">
 											@p.Category.Name</a>
 												</li>*@
-											</ul>
+													</ul>
 
-											<a href="/Product/Details/@p.ProductID" class="btn btn-primary read-m">Ürünü İncele</a>
-										</div>
-									</div>
+													<a href="/Product/Details/@p.ProductID" class="btn btn-primary read-m">Ürünü İncele</a>
+												</div>
+											</div>
+						}
 					}
 
 

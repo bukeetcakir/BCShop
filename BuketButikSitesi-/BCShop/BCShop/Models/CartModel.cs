@@ -9,6 +9,10 @@
 		{
 			return CartItems.Sum(i => (decimal)i.Price * i.Quantity);
 		}
+		public int TotalQuantity()
+		{
+			return CartItems.Sum(i=>i.Quantity);
+		}
 	}
 
 	public class CartItemModel

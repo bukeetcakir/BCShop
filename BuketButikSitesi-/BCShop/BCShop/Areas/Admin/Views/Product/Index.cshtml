@@ -71,9 +71,10 @@
                                                 </form>
                                             </td>
                                             <td>
-                                                <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="Product"
-                                                    asp-action="Edit" asp-route-id="@product.ProductID">Düzenle</a>
-                                                <a class="btn btn-danger btn-sm" href="">Sil</a>
+                                                    <a class="btn btn-warning btn-sm" asp-area="Admin" asp-controller="Product"
+                                                        asp-action="Edit" asp-route-id="@product.ProductID">Düzenle</a>
+                                                    <a class="btn btn-danger btn-sm" asp-area="Admin" asp-controller="Product" asp-action="Delete"
+                                  asp-route-id="@product.ProductID" onclick="return confirm('Silmek istediğinize emin misiniz?')">Sil</a>
                                             </td>
                                         </tr>
                                     }

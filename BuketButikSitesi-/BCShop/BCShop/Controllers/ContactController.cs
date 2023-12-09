@@ -1,10 +1,12 @@
 ﻿using BCShop.Business.Concrete;
 using BCShop.Data.EntityFramework;
 using BCShop.Entity.Concrete;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BCShop.Controllers
 {
+	[AllowAnonymous]
 	public class ContactController : Controller
 	{
 		ContactManager cm = new ContactManager(new EFContactRepository());

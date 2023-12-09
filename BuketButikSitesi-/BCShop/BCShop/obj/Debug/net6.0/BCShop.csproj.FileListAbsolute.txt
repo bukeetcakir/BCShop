@@ -257,3 +257,4 @@ C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\JetBrains.Annotations.dll
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\X.PagedList.dll
 C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\X.PagedList.Mvc.Core.dll
+C:\Users\Buket\Documents\GitHub\BuketButikSitesi\BuketButikSitesi-\BCShop\BCShop\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

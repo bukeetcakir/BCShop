@@ -40,7 +40,7 @@
 						{
 							<div class="tech-btm">
 								<h2>@p.Name</h2>
-								<h4>₺ @p.Price </h4>
+									<h4>@p.Price.ToString("c") </h4>
 										<form asp-controller="Cart" asp-action="AddToCart" method="post" class="form-inline">
 					<input type="hidden" name="ProductID" value="@p.ProductID" />
 					<div class="input-group mb-3">

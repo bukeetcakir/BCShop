@@ -5,26 +5,6 @@
       "PackagePath": "staticwebassets\\BCShop.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\about.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\about.html"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\blog1.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\blog1.html"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\blog2.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\blog2.html"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\blog3.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\blog3.html"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\contact.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\contact.html"
-    },
-    {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\BCShopTheme\\css\\bootstrap.css"
     },
@@ -133,16 +113,40 @@
       "PackagePath": "staticwebassets\\BCShopTheme\\images\\banner_1.jpg"
     },
     {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\bcap.jpg",
+      "PackagePath": "staticwebassets\\BCShopTheme\\images\\bcap.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\bls.jpg",
+      "PackagePath": "staticwebassets\\BCShopTheme\\images\\bls.jpg"
+    },
+    {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\bs.jpg",
       "PackagePath": "staticwebassets\\BCShopTheme\\images\\bs.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\deneme.jpg",
+      "PackagePath": "staticwebassets\\BCShopTheme\\images\\deneme.jpg"
     },
     {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\gb.jpg",
       "PackagePath": "staticwebassets\\BCShopTheme\\images\\gb.jpg"
     },
     {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\gp.jpg",
+      "PackagePath": "staticwebassets\\BCShopTheme\\images\\gp.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\kp.jpg",
+      "PackagePath": "staticwebassets\\BCShopTheme\\images\\kp.jpg"
+    },
+    {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\left.png",
       "PackagePath": "staticwebassets\\BCShopTheme\\images\\left.png"
+    },
+    {
+      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\lt.jpeg",
+      "PackagePath": "staticwebassets\\BCShopTheme\\images\\lt.jpeg"
     },
     {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\images\\m1.jpg",
@@ -177,10 +181,6 @@
       "PackagePath": "staticwebassets\\BCShopTheme\\images\\wt.jpg"
     },
     {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\index.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\index.html"
-    },
-    {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\BCShopTheme\\js\\bootstrap.js"
     },
@@ -211,22 +211,6 @@
     {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\js\\script.js",
       "PackagePath": "staticwebassets\\BCShopTheme\\js\\script.js"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\login.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\login.html"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\register.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\register.html"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\single.html",
-      "PackagePath": "staticwebassets\\BCShopTheme\\single.html"
-    },
-    {
-      "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\w3layouts-license.txt",
-      "PackagePath": "staticwebassets\\BCShopTheme\\w3layouts-license.txt"
     },
     {
       "Id": "C:\\Users\\Buket\\Documents\\GitHub\\BuketButikSitesi\\BuketButikSitesi-\\BCShop\\BCShop\\wwwroot\\BCShopTheme\\webfonts\\fa-brands-400.eot",

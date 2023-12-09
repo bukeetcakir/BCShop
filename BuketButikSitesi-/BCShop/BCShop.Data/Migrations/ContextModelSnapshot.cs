@@ -52,7 +52,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("AboutID");
 
-                    b.ToTable("Abouts");
+                    b.ToTable("Abouts", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Cart", b =>
@@ -68,7 +68,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("CartID");
 
-                    b.ToTable("Carts");
+                    b.ToTable("Carts", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.CartItem", b =>
@@ -94,7 +94,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasIndex("ProductID");
 
-                    b.ToTable("CartItem");
+                    b.ToTable("CartItem", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Category", b =>
@@ -118,7 +118,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("CategoryID");
 
-                    b.ToTable("Categories");
+                    b.ToTable("Categories", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Comment", b =>
@@ -155,7 +155,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasIndex("UserID");
 
-                    b.ToTable("Comments");
+                    b.ToTable("Comments", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Contact", b =>
@@ -190,7 +190,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("ContactID");
 
-                    b.ToTable("Contacts");
+                    b.ToTable("Contacts", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.Product", b =>
@@ -233,7 +233,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasIndex("CategoryID");
 
-                    b.ToTable("Products");
+                    b.ToTable("Products", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.User", b =>
@@ -262,7 +262,7 @@ namespace BCShop.Data.Migrations
 
                     b.HasKey("UserID");
 
-                    b.ToTable("Users");
+                    b.ToTable("Users", (string)null);
                 });
 
             modelBuilder.Entity("BCShop.Entity.Concrete.CartItem", b =>

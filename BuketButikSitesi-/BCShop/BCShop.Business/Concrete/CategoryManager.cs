@@ -18,10 +18,6 @@ namespace BCShop.Business.Concrete
 			_categoryDAL = categoryDAL;
 		}
 
-		//public void AddCategory(Category category)
-		//{
-		//	_categoryDAL.Insert(category);
-		//}
 
 		public void AddT(Category t)
 		{
@@ -29,10 +25,7 @@ namespace BCShop.Business.Concrete
 
 		}
 
-		//public void DeleteCategory(Category category)
-		//{
-		//	_categoryDAL.Delete(category);
-		//}
+		
 
 		public void DeleteT(Category t)
 		{
@@ -49,10 +42,7 @@ namespace BCShop.Business.Concrete
 			return _categoryDAL.GetAll();
 		}
 
-		//public void UpdateCategory(Category category)
-		//{
-		//	_categoryDAL.Update(category);
-		//}
+		
 
 		public void UpdateT(Category t)
 		{

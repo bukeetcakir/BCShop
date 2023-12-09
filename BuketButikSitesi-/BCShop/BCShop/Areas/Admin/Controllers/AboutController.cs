@@ -3,13 +3,14 @@ using BCShop.Business.ValidationRules;
 using BCShop.Data.EntityFramework;
 using BCShop.Entity.Concrete;
 using FluentValidation.Results;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace BCShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
-
-    public class AboutController : Controller
+	[Authorize(Policy = "AdminPolicy")]
+	public class AboutController : Controller
     {
         AboutManager abm = new AboutManager(new EFAboutRepository());
         public IActionResult Index()

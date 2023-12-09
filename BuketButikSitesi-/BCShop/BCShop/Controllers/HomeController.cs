@@ -1,11 +1,13 @@
 ﻿using BCShop.Business.Concrete;
 using BCShop.Data.EntityFramework;
 using BCShop.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
 namespace BCShop.Controllers
 {
+	[AllowAnonymous]
 	public class HomeController : Controller
 	{
 		private readonly ILogger<HomeController> _logger;
