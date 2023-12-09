@@ -16,7 +16,7 @@ Proje, aşağıdaki ana başlıkları içermektedir:
 - Data Access Layer
 - Business Layer
 - HTML, CSS, JavaScript, JQuery
-- Entity Franework Core
+- Entity Framework Core
 - Repository Design Pattern
 
 
